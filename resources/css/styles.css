@@ -10,4 +10,13 @@ font-family:baskerville;
     background-image: url("../images/University\ Skyline.jpg");
     background-size: 100% auto;
     height: 30rem;
+    display: inline-flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+#welcome > * {
+    margin: 2rem;
+    background-color: rgba(0, 0, 0, 0.804);
+    width: 100%;
 }
