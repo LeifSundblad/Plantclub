@@ -37,10 +37,13 @@ font-family:baskerville;
 
 .flex-box{
     flex-basis: 30rem;
-    display: inline-flex;
+    display: flex;
+    flex-direction: column;
     align-self: stretch;
+    justify-content: space-between;
+    margin: 1rem;
 }
 
 .events.text{
-    align-self: flex-end;
+    margin: 0.5rem auto;
 }
