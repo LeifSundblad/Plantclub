@@ -36,6 +36,11 @@ font-family:baskerville;
 }
 
 .flex-box{
-    flex-basis: 50rem;
-    display: inline;
+    flex-basis: 30rem;
+    display: inline-flex;
+    align-self: stretch;
+}
+
+.events.text{
+    align-self: flex-end;
 }
