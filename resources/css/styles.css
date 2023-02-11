@@ -23,3 +23,15 @@ font-family:baskerville;
     color:azure;
     align-self: center;
 }
+
+.events.image{
+    display:block;
+    width: 100%;
+}
+
+#events{
+    display:flex;
+    flex-wrap: wrap;
+    flex-basis: 50rem;
+    width: 100%;
+}
