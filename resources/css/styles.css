@@ -29,9 +29,13 @@ font-family:baskerville;
     width: 100%;
 }
 
-#events{
+.flex-container{
     display:flex;
     flex-wrap: wrap;
-    flex-basis: 50rem;
     width: 100%;
+}
+
+.flex-box{
+    flex-basis: 50rem;
+    display: inline;
 }
