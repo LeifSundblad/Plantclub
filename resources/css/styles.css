@@ -33,10 +33,11 @@ font-family:baskerville;
     display:flex;
     flex-wrap: wrap;
     width: 100%;
+    justify-content: center;
 }
 
 .flex-box{
-    flex-basis: 30rem;
+    flex-basis: 20rem;
     display: flex;
     flex-direction: column;
     align-self: stretch;
